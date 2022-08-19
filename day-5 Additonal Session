@@ -1,0 +1,41 @@
+day-5 additional class
+
+
+documentation object & window object
+documentation object
+ documentation is nothing but whatever we can access inside the tab..
+window object
+window is nothing but other than tab.. all the icons & settings we can access.
+
+array iteration(loop)
+
+types of loops
+1.for loop
+2.for.. in loop(will help in object most of the time)
+3.for..of loop (will always take array)
+4.for each loops
+
+1. for loop
+var x=[1,2,3,4,5];
+for(let i=0;i<x.length;i++){
+console.log(x[i]);
+}
+
+2. for in loop
+
+for (let i in x){
+    console.log(x[i]);
+}
+
+3. for of loop
+
+for (let x1 of x){
+    console.log(x1);
+}
+
+4. for each loop
+
+
+x.forEach(function(x1){
+    console.log(x1);
+})
