@@ -1,0 +1,54 @@
+/ hoisting & scope
+// xml http
+// functions
+
+
+// let,var,const
+
+// function delacaration
+// d- function name
+// a,b,c- arguments/parameter
+// {}- function body
+
+
+// function d(a,b,c){
+//     let result = a+b+c;
+//     return  result;
+// }
+// console.log(d(5,5,5));
+
+// scope is lifetime of a variable
+
+// 1.function scope
+// 2.block scope
+
+// let&const - block scope
+// { } - block scope  is nothing but will work only inside of the block.
+
+// var - function scope
+
+// var will not escape from the function scope.
+
+// eg: function (){}
+
+
+// javascript is a interpreted language
+
+// javascript is not a compiled language.. not excatly.
+
+// jit- just in time compilation
+// 2 Phase 
+// 1.compilation Phase - Declaration
+// 2.execution phase - execution context
+const xhr = new XMLHttpRequest();
+xhr.open("GET","https://restcountries.com/");
+xhr.send();
+
+xhr.responseType = "json";
+
+xhr.onload = function displayResult() {
+    const countries = xhr.response;
+    console.log(countries);
+}
+
+
