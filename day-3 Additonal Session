@@ -1,12 +1,61 @@
-day-5 additional class
+step1. www.google.com
+step2. dns => will change to IP Number
+will get in cache or history
 
+step3. initiate TCP => 3 way hand shake for confirmation
+syn - hand shake
+client to server
 
-documentation object & window object
+step4. will start via loadind http 
+
+200- success
+300- re-direction
+400- client side wrong input (eg) username&password
+500- server side problem (eg) network problem in server side 
+
+step5. webpage will load 
+
+htmlprase css prase will create document
+javascript document will create
+
+browser engin => rendering engine
+
+userinterface
+ip Number
+will display
+
+null is a object data DocumentType
+
+typecast is nothing but will change data type 
+implicit(automatic) & explicit(manual) data type 
+eg: convert (sting to number)
+
+"5"==5 -> allows typecasting 
+"5"===5 -> does not allows typecasting
+
+copy by value & copy by Reference 
+
+copy by value will copy only the value 
+
+eg: spread operator&concat method 
+
+spread operator syntax (...x); 
+concat syntax [0,1].concat[2,3];
+
+will check the memory address 
+because of saving the file space
+
+push method 
+ if we use push means will store the value in the last of the array 
+ 
+ documentation object & window object
 documentation object
  documentation is nothing but whatever we can access inside the tab..
 window object
 window is nothing but other than tab.. all the icons & settings we can access.
 
+
+iteration is nothing but loops
 array iteration(loop)
 
 types of loops
@@ -27,14 +76,15 @@ for (let i in x){
     console.log(x[i]);
 }
 
+for in loop indicates the index
+
 3. for of loop
 
 for (let x1 of x){
     console.log(x1);
 }
-
+for of loops indicates the value
 4. for each loop
-
 
 x.forEach(function(x1){
     console.log(x1);
